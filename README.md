@@ -22,14 +22,14 @@ The file that do this preprocess is `preprocess_data.py`. Besides preprocessing 
 In the file `api.py` we have all the answers for the following questions:
 
 - Design a dashboard in Streamlit to represent the following information: 
-a.	What is the average for the duration of the trips? Total numbers of trips? 
-b.	Bike trip minutes according to the client's age. 
-c.	If you only take into account the real trips? This trips have a duration more than 1 minute. 
-d.	The average of the real trips, but in minute, without decimals and with the heading <<Duration>>. How many bike are registered?
-e.	Can you show a table with the bikes and the number of trips that have been carried out?
-f.	What are the 10 longest trips that departed from the station called 'Fan Pier'?
-g.	How many trips have departed from and returned to the station according to the user's selection filter?
-h.	Do a temporal analysis of the data.
+1.	What is the average for the duration of the trips? Total numbers of trips? 
+2.	Bike trip minutes according to the client's age. 
+3.	If you only take into account the real trips? This trips have a duration more than 1 minute. 
+4.	The average of the real trips, but in minute, without decimals and with the heading <<Duration>>. How many bike are registered?
+5.	Can you show a table with the bikes and the number of trips that have been carried out?
+6.	What are the 10 longest trips that departed from the station called 'Fan Pier'?
+7.	How many trips have departed from and returned to the station according to the user's selection filter?
+8.	Do a temporal analysis of the data.
 
 In the file `kpips.py` we have the answer for this question:
 
