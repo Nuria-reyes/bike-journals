@@ -1,10 +1,25 @@
 # Instructions 
 
+To get the datasets that we use in `api.py` and `kpis.py` you have first run `preprocess_data.py` with the datasets `data_trips.txt` and `data_stations.txt` that we don't have in the repository. These datasets are what were provided to us during the interview. These datasets aren't uploaded because they are too large in size. 
+
+First, we need these datasets in the folder.
+
+After that, write this command in the terminal:
+
+- `python preprocess_data.py`
+
+- `streamlit run api.py`
+
+- `streamlit run kpis.py`
+
+
+# Description
+
 At the begining, we had two datasets. But, one of them isn't normalized. For this reason, we need to preprocess this data. 
 
 The file that do this preprocess is `preprocess_data.py`. Besides preprocessing this dataset, we add the name columns of station dataset and we create two dataframe called `people.csv` and `bike.csv`. 
 
-In the file `app.py` we have all the answers for the following questions:
+In the file `api.py` we have all the answers for the following questions:
 
 - Design a dashboard in Streamlit to represent the following information: 
 a.	What is the average for the duration of the trips? Total numbers of trips? 
