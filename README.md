@@ -4,7 +4,7 @@ To get the datasets that we use in `api.py` and `kpis.py` you have first run `pr
 
 First, we need these datasets in the folder.
 
-After that, write this command in the terminal:
+After that, write these commands in the terminal:
 
 - `python preprocess_data.py`
 
